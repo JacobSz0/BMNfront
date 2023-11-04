@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/BMNfront/static/css/main.7995c936.css",
+    "main.js": "/BMNfront/static/js/main.b0dba050.js",
+    "static/media/swinging.gif": "/BMNfront/static/media/swinging.c12ef741dfb80b66a2e8.gif",
+    "static/media/bunnies.gif": "/BMNfront/static/media/bunnies.a34e7d117ea6fbd7a50f.gif",
+    "static/media/darol.gif": "/BMNfront/static/media/darol.5e94a5761388cc5bbbb7.gif",
+    "static/media/flare.jpg": "/BMNfront/static/media/flare.23318506fbcbf99ec1da.jpg",
+    "static/media/heman.jpg": "/BMNfront/static/media/heman.98dafbb211b4ee2b81d3.jpg",
+    "static/media/madame.jpg": "/BMNfront/static/media/madame.662dd681dcb0687921c1.jpg",
+    "static/media/tilted.jpg": "/BMNfront/static/media/tilted.27602972bf2fce0d1c48.jpg",
+    "index.html": "/BMNfront/index.html",
+    "main.7995c936.css.map": "/BMNfront/static/css/main.7995c936.css.map",
+    "main.b0dba050.js.map": "/BMNfront/static/js/main.b0dba050.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7995c936.css",
+    "static/js/main.b0dba050.js"
+  ]
+}
