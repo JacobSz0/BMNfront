@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+}
+
+.bg {
+  background-color: rgb(53, 53, 53);
+}
+
+.text {
+  text-align: center;
+  color: white
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.contain{
+  padding: 3%;
+}
+
+.my-card {
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-nav {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-nav li a {
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  text-decoration: none;
+}
+.navbar-item li a:hover {
+  text-decoration-color: #ffffff;
+}
+.footer {
+  font-family: Arial, Helvetica, sans-serif;
+
+  bottom: 0;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+}
+footer a {
+  color: #000000;
+  text-decoration-line: none;
+}
+footer a:hover {
+  text-decoration: rgb(255, 255, 255);
+}
+
+.bg2{
+  background-color: #535252;
+}
+
+.text{
+  color: white;
+}
+
+.padding{
+  padding-bottom: 15px;
+}
+
+.link{
+  color: rgb(36, 204, 255);
+}
+
+.nav-redirect{
+  color: rgb(115, 3, 150);
+}
+
+.nav-bar-green{
+  background-image: linear-gradient(to right top, #569e67, #519561, #4c8d5c, #478456, #427c51);
+}
+
+.nav-main{
+  color: #000000;
+  font-size: 22px;
+  color: inherit;
+}
+
+.img-size{
+  width: 350px;
+  height: auto;
+}
+
+.ib{
+  display: inline-block;
+}
+.pad{
+  padding: 5px;
+}
+
+.background-grey{
+  background-color: gray;
+}
+
+.glass-red{
+	/* background styles */
+	position: relative;
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: rgb(128, 0, 0); /*for compatibility with older browsers*/
+	background-image: linear-gradient(rgb(128, 0, 0),rgb(238, 144, 144));
+
+	/* text styles */
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: 100;
+
+  box-shadow: 0px 1px 4px -2px #333;
+  text-shadow: 0px -1px #333;
+}
+
+
+.glass-red:hover{
+	background: linear-gradient(rgb(119, 0, 0),rgb(255, 0, 0));
+}
+
+.glass-orange{
+	/* background styles */
+	position: relative;
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: rgb(116, 79, 0); /*for compatibility with older browsers*/
+	background-image: linear-gradient(rgb(107, 69, 0),rgb(193, 148, 0));
+
+	/* text styles */
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: 100;
+
+  box-shadow: 0px 1px 4px -2px #333;
+  text-shadow: 0px -1px #333;
+}
+
+
+.glass-orange:hover{
+	background: linear-gradient(rgb(145, 126, 0),rgb(255, 196, 0));
+}
+
+.glass:after{
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: calc(100% - 4px);
+	height: 50%;
+	background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
