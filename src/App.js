@@ -24,7 +24,6 @@ function App() {
 
   return (
     <div className="bg">
-    <BrowserRouter basename={basename}>
       <AuthProvider>
         <GetToken />
         <Nav />
@@ -42,7 +41,6 @@ function App() {
         </div>
         <Foot/>
       </AuthProvider>
-    </BrowserRouter>
     </div>
   );
 }
